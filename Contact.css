@@ -1,0 +1,295 @@
+/*-------------------------------------------------Header---------------------------------------*/
+
+
+.button {
+  background-image: linear-gradient(to bottom right, #b300b3, #ff33cc);
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 1300px ; /* Place of the button horizontally   */
+  border-radius:60px;
+
+}             
+
+  
+.logo{
+	margin-right: 1500px;
+	margin-left: 30px;
+	padding: 1px ;
+    
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: transparent;
+  margin-left: 200px;
+  margin-top: 22px;
+  border-left: 6px solid #ff3399;
+ 
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+  background-color: transparent;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer; 
+  padding: 20px 18px;
+  transition: 0.3s;
+  font-size: 17px;
+  margin-left: 35px; 
+  margin-top: 10px;  
+}
+
+/* Background color of buttons on hover */
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Active/current tablink class */
+
+.tab button.active {
+  background-color: DodgerBlue;
+}
+
+/* Tab content */
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.sticky {
+  background-color: #F5F5F5;
+   position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  z-index: +1;
+}
+
+/*-----------------------------------------------------------end of the header-------------------------------------------------*/
+
+
+
+
+Body{
+	
+	
+	background-image: URL("../images/rere.png") ;
+	margin: 0;
+	font-family:sans-serif;
+	background-repeat: no-repeat;
+	background-size:  700px;
+	background-position: 15% 20%;
+
+	}
+	
+
+	
+.contact-title{
+	margin-top:100px;
+	color:black;
+	transition: all 3s ease-in-out;
+	margin-left: 790px;
+	text-align: center;
+}
+
+#h1{
+	font-size:62px;
+	line-height:10px;
+	color:  DodgerBlue;
+	
+}
+
+#h2{
+	font-size:16px;
+	color: rgb(120, 120, 120);
+	
+
+	
+}
+
+#img {
+	margin-right: 990px;
+	float : left;
+}
+
+form {
+	margin-top: 50px;
+	transition: all 3s ease-in-out;
+	margin-left: 800px;
+	text-align: center;
+}
+
+.form-control {
+	width:600px;
+	background: transparent;
+	border: 1px solid gray;
+	color:black;
+	font-size: 18px;
+	margin-bottom: 16px;
+	border-radius:60px;
+	outline: none;
+	padding: 10px;
+	
+}
+
+
+
+.form-submit{
+	background: DodgerBlue;
+	border-color: transparent;
+	color:#fff;
+	font-size: 20px;
+	font-weight:bold;
+	letter-spacing: 2px;
+	height:50px;
+	margin-top: 20px;
+	cursor: pointer;
+	outline: none;
+	
+}
+.form-submit {
+    border-radius:60px;
+}
+
+
+/*__________________________________________________________FOOTER__________________________________________________*/
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 60px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+
+
+.footer-distributed h3{                     /* Seven */
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{                /* Seas  */
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
